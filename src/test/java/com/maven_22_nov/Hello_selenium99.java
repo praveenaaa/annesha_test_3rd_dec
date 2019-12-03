@@ -22,7 +22,7 @@ public void google_search() throws Exception{
 		 
 		 driver.get("https://www.google.com/");
 		 
-		 driver.findElement(By.name("q")).sendKeys("selenium");
+		 driver.findElement(By.name("q")).sendKeys("selenium webdriver interview questions");
 		 Thread.sleep(2000);
 		 driver.findElement(By.name("btnK")).click();
 		 
